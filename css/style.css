@@ -1,0 +1,202 @@
+/* Shared Css */
+:root {
+    --theme-white: #FDFBFA;
+    --mint: #DEEAE9;
+    --pink: #EFCDC3;
+    --gold: #DEC482;
+    --dark-brown: #7A3D1C;
+    --dark: #54260E;
+    --dark-grey: #5E5550;
+    --serif: 'Playfair Display';
+    --sans-serif: 'Rosario';
+}
+
+nav {
+    background: linear-gradient(269.97deg, #F2E0D8 7.2%, #D6FAF5 27.01%, #F2E0D8 59.38%, #F2E0D8 99.96%);
+    border-bottom: 3px solid var(--gold);
+}
+
+nav .navbar-brand {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: var(--dark-brown);
+}
+
+nav li {
+    border: 1px solid transparent;
+}
+
+.nav-item-hover {
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+}
+
+.active {
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+}
+
+nav .nav-item a {
+    font-family: var(--sans-serif);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--dark);
+}
+
+.navbar-toggler {
+    display: inline-block;
+    background-image: url("../images/donut-icon1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.container h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 53px;
+    color: var(--dark);
+}
+
+.container p {
+
+    font-family: var(--sans-serif);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: var(--dark-grey);
+}
+
+.btn {
+    background-color: var(--pink);
+    border: 2px solid var(--gold);
+    border-radius: 30px;
+    font-family: var(--serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--dark-brown);
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+    background-color: var(--gold);
+    color: var(--theme-white);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--mint);
+    border: 1px solid var(--gold);
+    color: var(--dark);
+}
+
+/* Blog/archive.html */
+.post-card-container .post-card {
+    width: 100%;
+
+}
+
+.post-card-container .post-card-text {
+    font-family: var(--sans-serif);
+    color: var(--dark-grey);
+}
+
+.post-card-container .post-card .post-card-title {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--dark-brown);
+}
+
+.post-card-container .post-card .post-card-author {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.post-card-container .post-card .post-card-paragraph {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.post-card-container .post-card .post-card-link {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--gold);
+    text-decoration: underline;
+}
+
+.left-content {
+    background-image: url("../images/candy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-content .left-search-field {
+    background-color: rgba(244, 236, 228, 0.67);
+    border: 2px solid var(--gold);
+    margin-top: -2px;
+}
+form .search-btn {
+    font-size: 1rem;
+    padding: 0.1rem 1.4rem;
+    margin: 0 auto;
+}
+/* About/Page.html */
+.about-image {
+    display: inline-block;
+    background-image: url("../images/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+}
+
+.about-card-container .card {
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-card-container .card .card-img {
+    margin: 0 auto;
+    width: 130px;
+}
+
+.about-card-container .card .card-text {
+    text-align: left;
+    font-family: var(--sans-serif);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: var(--dark-brown);
+}
