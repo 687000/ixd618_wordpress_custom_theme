@@ -25,9 +25,9 @@
 			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto"">
-      <li class=" nav-item">
-				<a class="nav-link text-uppercase pl-4 pr-4" href="index.html">Home</a>
+			<ul class="navbar-nav ml-auto">
+				<li class=" nav-item">
+					<a class="nav-link text-uppercase pl-4 pr-4" href="index.html">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-uppercase pl-4 pr-4" href="archive.html">Blogs</a>
@@ -43,42 +43,56 @@
 	</nav>
 
 	<container>
-	<div class="container pt-5 mb-5">
-		<header class="page-title text-center">
-			<h1 class="heading">Contact</h1>
-		</header>
-		<div class="about-content mt-4">
-			<div class="about-image"></div>
-			<div class="row about-card-container mt-4">
-				<div class="col-md-4">
-					<div class="card">
-						<img src="images/donut-icon2.png" class="card-img" alt="Image 1">
-						<div class="card-body pl-5 pr-5">
-							<p class="card-text">Lorem iem ipet, consectetur adi ipsum dolor sit amet. UtLorem ipsum dolor sit amet. Ut </p>
-						</div>
+		<div class="row">
+			<div class="left-content col-lg-3" style="background-image: url('images/candy1.jpg');">
+				<div class="row">
+					<div class="col-lg-12 left-search-field">
+						<form class="form-inline p-3">
+							<input class="form-control mb-1" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn search-btn" type="submit">Search</button>
+						</form>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<img src="images/donut-icon3.png" class="card-img" alt="Image 1">
-						<div class="card-body pl-5 pr-5">
-							<p class="card-text">Lorem ipsum dolor saem ipsum dolor sit amet, consectum dolor sit amet. Ut </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-						<img src="images/donut-icon4.png" class="card-img" alt="Image 1">
-						<div class="card-body pl-5 pr-5"><!-- Use a Lorem Ipsum generator to generate placeholder text for the card body -->
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed it. </p>
+			</div>
+			<div class="right-content col-lg-8">
+				<div class="container pt-5 mb-5 pl-5 pr-5 text-center">
+					<header class="page-title mb-3">
+						<h1 class="heading">Contact</h1>
+					</header>
+					<div class="contact-container">
+						<div class="row">
+							<div class="col-lg-3 col-md-12 d-none d-lg-block">
+							</div>
+							<div class="col-lg-6 col-md-12">
+								<div class="contact-form-container text-center">
+									<img src="images/donut-icon4.png" class="contact-img" alt="Image 1">
+									<form class="mt-5">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="email" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Title">
+										</div>
+										<div class="form-group">
+											<textarea class="form-control" rows="5" placeholder="Message"></textarea>
+										</div>
+										<button type="submit" class="btn">Submit</button>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 col-md-12 d-none d-lg-block">
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<div class="empty-content col-lg-1 d-none d-lg-block"></div>
 		</div>
 
-	</div>
-</container>
+	</container>
 	<!-- Footer -->
 	<footer class="text-center text-lg-start">
 		<div class="text-center">
